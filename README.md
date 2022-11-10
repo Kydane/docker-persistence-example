@@ -1,5 +1,7 @@
 This repository is to show a quick example of two ways to mount persisted storage inside of docker. Education purposes only.
 
+Both of these options will start a mysql container. One will use storage from a local machine and one will use a docker volume to save storage. you can run the scripts in each option directory to see how it works.
+
 ## Option 1 - Mounting storage from the local machine
 In option 1, there is a single script, `file_mount_commands.sh`. This shell script is a simple command that starts a mysql container with its data persisted in 
 a directory called `persisted_data`. 
